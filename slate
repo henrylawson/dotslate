@@ -3,9 +3,13 @@
 config defaultToCurrentScreen true
 config nudgePercentOf screenSize
 config resizePercentOf screenSize
+
 config windowHintsShowIcons true
 config windowHintsIgnoreHiddenWindows false
 config windowHintsSpread true
+config windowHintsOrder leftToRight
+config windowHintsDuration 5
+config windowHintsFontColor 255;255;255;0.8
 
 # Abstract positions for later use within configuration.
 
@@ -40,7 +44,7 @@ bind .:${hyper}  ${bottomright}
 
 # Binding for the grid helper
 
-bind g:${hyper} grid padding:5 1680x1050:16,9 1050x1680:9,16 
+bind g:${hyper} grid padding:5
 
 # Binding to relaunch slate configuration
 
