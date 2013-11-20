@@ -4,13 +4,6 @@ config defaultToCurrentScreen true
 config nudgePercentOf screenSize
 config resizePercentOf screenSize
 
-config windowHintsShowIcons true
-config windowHintsIgnoreHiddenWindows false
-config windowHintsSpread true
-config windowHintsOrder rightToLeft
-config windowHintsDuration 5
-config windowHintsFontColor 255;255;255;0.8
-
 # Abstract positions for later use within configuration.
 
 alias full move screenOriginX;screenOriginY screenSizeX;screenSizeY
@@ -49,10 +42,6 @@ bind g:${hyper} grid padding:5
 # Binding to relaunch slate configuration
 
 bind r:${hyper} relaunch
-
-# Bindings for the alternative window switcher
-
-bind ;:${hyper} hint ASDFGHJKL
 
 # Binding to throw windows to other screens
 
