@@ -7,7 +7,7 @@ config resizePercentOf screenSize
 config windowHintsShowIcons true
 config windowHintsIgnoreHiddenWindows false
 config windowHintsSpread true
-config windowHintsOrder leftToRight
+config windowHintsOrder rightToLeft
 config windowHintsDuration 5
 config windowHintsFontColor 255;255;255;0.8
 
