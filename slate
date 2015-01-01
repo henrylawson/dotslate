@@ -15,6 +15,7 @@ alias topleft corner top-left resize:screenSizeX/2;screenSizeY/2
 alias topright corner top-right resize:screenSizeX/2;screenSizeY/2
 alias bottomleft corner bottom-left resize:screenSizeX/2;screenSizeY/2
 alias bottomright corner bottom-right resize:screenSizeX/2;screenSizeY/2
+alias centered move screenOriginX+100;screenOriginY+100 screenSizeX-200;screenSizeY-200
 
 # Simple bindings for window positions
 #   u  i  o
@@ -34,6 +35,9 @@ bind ,:${hyper}  ${bottomhalf}
 bind o:${hyper}  ${topright}
 bind l:${hyper}  ${righthalf}
 bind .:${hyper}  ${bottomright}
+
+# Centered window positions
+bind c:${hyper}  ${centered}
 
 # Binding for the grid helper
 
