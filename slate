@@ -15,7 +15,7 @@ alias topleft corner top-left resize:screenSizeX/2;screenSizeY/2
 alias topright corner top-right resize:screenSizeX/2;screenSizeY/2
 alias bottomleft corner bottom-left resize:screenSizeX/2;screenSizeY/2
 alias bottomright corner bottom-right resize:screenSizeX/2;screenSizeY/2
-alias centered move screenOriginX+100;screenOriginY+100 screenSizeX-200;screenSizeY-200
+alias centered move screenSizeX*0.1+screenOriginX;screenSizeY*0.1+screenOriginY screenSizeX*0.8;screenSizeY*0.8
 
 # Simple bindings for window positions
 #   u  i  o
