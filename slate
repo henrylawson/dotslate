@@ -52,3 +52,5 @@ bind r:${hyper} relaunch
 bind 1:${hyper}         throw 0 resize
 bind 2:${hyper}         throw 1 resize
 bind 3:${hyper}         throw 2 resize
+bind 4:${hyper}         throw 3 resize
+bind 5:${hyper}         throw 4 resize
